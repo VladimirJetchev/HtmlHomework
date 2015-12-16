@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Emploee Form</title>
+</head>
+	<body>
+	<h1>Add Emploee</h1>
+		<form action=>
+			First name: <input type="text" name="FirstName" value=""><br>
+			Last name: <input type="text" name="LastName" value=""><br>
+			Title: <input type="text" name="Title" value=""><br>
+			Title of Courtesy: Dr.<input type="radio" name="sex" value="Dr.">
+			Mr.<input type="radio" name="sex" value="Mr.">
+			Mrs.<input type="radio" name="sex" value="Mrs.">
+			Ms.<input type="radio" name="sex" value="Ms."><br>
+  			Birthday: <input type="date" name="bday"><br>
+  			Hire Day: <input type="date" name="hday"><br> 
+  			Adress: <input type="text" name="adress"><br>
+  			City: <input type="text" name="city"><br>
+  			Region: <input type="text" name="region"><br>
+  			Postal Code: <input type="text" name="PC"><br>
+  			Email: <input type="email" name="email"><br>
+  			Telephone Number: <input type="tel" name="telephone"><br><!--only safari8-->
+  			Note: <br><textarea name="message" rows="10" cols="30"></textarea><br>
+  			Manager:<input list="Managers" name="Manager">
+  					<datalist id="Managers">
+   						<option value="John">
+    					<option value="Vasko">
+   						<option value="AZ">
+    					<option value="Gosho">
+    					<option value="Ivan">
+  					</datalist><br>
+  			Password: <input type="password" name="psw"><br>
+		<input type="submit" value="Add Emploee">
+</form>
+		
+		
+	</body>
+</html>
