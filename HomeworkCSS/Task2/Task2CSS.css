@@ -1,0 +1,43 @@
+div{
+	margin-bottom: 5px;
+}
+
+hr{
+	margin-bottom:2px;
+}
+
+#wrapper{
+	width : 90%;
+	margin-right: 4%; 
+	margin-left: 4%;
+}
+
+
+#header{ 
+	width:100%;
+	background-color: #000066;
+	height:15px;
+}
+
+#right_con{
+	width:66%;
+	background-color: green;
+	height:300px;
+	float:left;
+}
+
+#left_con{
+	width:32%;
+	background-color: purple;
+	height:300px;
+	float:left;
+	margin-right:2%;
+}
+
+#footer{
+	width:100%;
+	background-color: blue;
+	height:15px;
+	float:left;
+}
+

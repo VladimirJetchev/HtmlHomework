@@ -1,0 +1,45 @@
+div{
+	margin-bottom: 3%;
+}
+
+
+#wrapper{
+	width : 420px;
+	height: 400px;
+	margin-right: 1%; 
+	margin-left: 10%;
+}
+
+#header{ 
+	width: 100%;
+	background-color: #1f6666;
+	height:95px;
+}
+
+
+#left_content{
+	width:25%;
+	background-color: #e600e5;
+	height:260px;
+	float:left;
+	margin-right:;
+}
+
+
+
+#right_content{
+	width: 72%;
+	background-color: #00ff00;
+	height:260px;
+	margin-left: 3%;
+	float:left;
+}
+
+
+#footer{
+	width:100%;
+	background-color: #0040ff;
+	height:90px;
+	float: left;
+}
+
